@@ -1,0 +1,4 @@
+[org/gnome/desktop/session]
+# Set the lock time out to 900 seconds before the session is considered idle
+idle-delay=uint32 900
+

@@ -1,0 +1,20 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Fri Jan 14 15:11:20 2022
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+/dev/mapper/cs_test-root /                       xfs     defaults        0 0
+UUID=83e9dd52-9f6c-4840-a94a-96960cdd0997 /boot                   xfs     defaults        0 0
+/dev/mapper/cs_test-home /home                   xfs     defaults        0 0
+/dev/mapper/cs_test-tmp /tmp                    xfs     defaults        0 0
+/dev/mapper/cs_test-var /var                    xfs     defaults        0 0
+/dev/mapper/cs_test-var_log /var/log                xfs     defaults        0 0
+/dev/mapper/cs_test-var_log_audit /var/log/audit          xfs     defaults        0 0
+/dev/mapper/cs_test-var_tmp /var/tmp                xfs     defaults        0 0
+/dev/mapper/cs_test-swap none                    swap    defaults        0 0

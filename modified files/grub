@@ -1,0 +1,8 @@
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="crashkernel=auto resume=/dev/mapper/cs_test-swap rd.lvm.lv=cs_test/root rd.lvm.lv=cs_test/swap rhgb quiet fips=1 boot=UUID=f23b00d7-c629-4fab-a54e-b150f62400e1 page_poison=1 vsyscall=none slub_debug=P audit=1 audit_backlog_limit=8192 pti=on ipv6.disable=1"
+GRUB_DISABLE_RECOVERY="true"
+GRUB_ENABLE_BLSCFG=true
